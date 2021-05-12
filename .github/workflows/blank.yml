@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build Action
-        uses: mesopelagique/build-action@0.0.3
+        uses: mesopelagique/build-action@0.0.4
