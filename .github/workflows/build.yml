@@ -11,4 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build Action
-        uses: mesopelagique/build-action@v1
+        run: echo "::error file=Project/Sources/Methods/kobuild.4dm,line=4::Something went wrong"
+      
