@@ -8,13 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build Action
-        uses: mesopelagique/build-action@v1
+      - name: Build and release action
+        uses: mesopelagique/build-action@releasebeta
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
-      - name: env
-        run: |
-          echo $GITHUB_EVENT_PATH
-          RELEASE_ID=$(jq --raw-output '.release.id' $GITHUB_EVENT_PATH)
-          echo $RELEASE_ID
-          echo $GITHUB_WORKPATH
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+          RELEASE: 1
