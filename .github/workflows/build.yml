@@ -22,3 +22,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build Action
         uses: mesopelagique/build-action@v1
+        with:
+          file: "Project/BuildSuccess.4DProject"
