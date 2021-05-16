@@ -25,3 +25,4 @@ jobs:
         with:
           file: "Project/BuildSuccess.4DProject"
           compilation-options: "{\"typeInference\": \"none\"}"
+
