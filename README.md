@@ -17,3 +17,11 @@ and a [pull request open](https://github.com/mesopelagique/test-build-action/pul
 [![build](https://github.com/mesopelagique/test-build-action/actions/workflows/build.yml/badge.svg?branch=test%2Fcompilation-options)](https://github.com/mesopelagique/test-build-action/actions/workflows/build.yml?query=test%2Fcompilation-options)
 
 and a [pull request open](https://github.com/mesopelagique/test-build-action/pull/3/files) where we could see errors and code modification to enforce variable typing
+
+## download last release compiled and attached
+
+[![release](https://img.shields.io/github/v/release/mesopelagique/test-build-action.svg)](https://github.com/mesopelagique/test-build-action/releases/latest)
+
+status of release
+
+[![release workflow](https://github.com/mesopelagique/test-build-action/actions/workflows/release.yml/badge.svg)](https://github.com/mesopelagique/test-build-action/actions/workflows/release.yml)
